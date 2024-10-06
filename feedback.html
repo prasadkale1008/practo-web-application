@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Practo App</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
+
+    <!-- Navbar -->
+    <nav style="background-color: #007bff; padding: 15px;">
+        <div style="width: 90%; margin: auto; max-width: 1200px;">
+            <a href="index.html" style="color: white; font-size: 24px; text-decoration: none;">Practo App</a>
+        </div>
+    </nav>
+
+    <button class="back-button" onclick="goBack()">Back to Home</button>
+
+    <!-- Feedback Section -->
+    <div style="width: 90%; margin: auto; max-width: 1200px; 
+                background-image: url('feedback1.jpg'); /* Add your image URL here */
+                background-size: cover; 
+                background-position: center; 
+                padding: 80px 20px; /* Increased padding-top for separation */
+                border-radius: 10px; 
+                color: white; 
+                margin-top: 30px;">
+        <h2 style="text-align: center;">We Value Your Feedback</h2>
+        <p style="text-align: center; font-size: 18px; margin-top: 30px;">
+            Let us know how we can improve our services or share your experience.
+        </p>
+        <form style="width: 60%; margin: auto; margin-top: 30px;">
+            <label for="name" style="display: block; margin-bottom: 10px;">Your Name</label>
+            <input type="text" id="name" style="width: 100%; padding: 10px; margin-bottom: 20px;" placeholder="Enter your name">
+
+            <label for="email" style="display: block; margin-bottom: 10px;">Your Email</label>
+            <input type="email" id="email" style="width: 100%; padding: 10px; margin-bottom: 20px;" placeholder="Enter your email">
+
+            <label for="message" style="display: block; margin-bottom: 10px;">Your Feedback</label>
+            <textarea id="message" style="width: 100%; padding: 10px; margin-bottom: 20px;" rows="5" placeholder="Enter your feedback"></textarea>
+
+            <button type="submit" style="padding: 10px 20px; background-color: #0056b3; color: white; border: none; cursor: pointer;">Submit Feedback</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #007bff; color: white; text-align: center; padding: 15px; margin-top: 50px;">
+        <p>&copy; 2024 Practo App. All rights reserved.</p>
+    </footer>
+
+ <script src="scripts.js"></script>
+
+</body>
+</html>

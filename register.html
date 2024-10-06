@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Practo-like App</title>
+</head>
+<body style="margin: 0; font-family: Arial, sans-serif; background-color: #f4f4f4;">
+
+    <!-- Navbar -->
+    <nav style="background-color: #007bff; padding: 15px;">
+        <div style="width: 90%; margin: auto; max-width: 1200px; display: flex; justify-content: space-between; align-items: center;">
+            <a href="index.html" style="color: white; font-size: 24px; text-decoration: none;">Practo-like App</a>
+            <div>
+              
+            </div>
+        </div>
+    </nav>
+    <button class="back-button" onclick="goBack()">Back to Home</button>
+    <!-- Registration Section -->
+    <div style="width: 90%; margin: auto; max-width: 600px; 
+                background-image: url('register1.jpg'); /* Add your image URL here */
+                background-size: cover; 
+                background-position: center; 
+                padding: 80px 20px; /* Increased padding-top for separation */
+                border-radius: 10px; 
+                color: white; 
+                margin-top: 30px;">
+        <h2 style="text-align: center;">Create Your Account</h2>
+        <form style="width: 100%; margin-top: 30px;">
+            <label for="name" style="display: block; margin-bottom: 10px;">Name</label>
+            <input type="text" id="name" style="width: 100%; padding: 10px; margin-bottom: 20px;" placeholder="Enter your name">
+
+            <label for="email" style="display: block; margin-bottom: 10px;">Email</label>
+            <input type="email" id="email" style="width: 100%; padding: 10px; margin-bottom: 20px;" placeholder="Enter your email">
+
+            <label for="password" style="display: block; margin-bottom: 10px;">Password</label>
+            <input type="password" id="password" style="width: 100%; padding: 10px; margin-bottom: 20px;" placeholder="Create a password">
+
+            <label for="confirm-password" style="display: block; margin-bottom: 10px;">Confirm Password</label>
+            <input type="password" id="confirm-password" style="width: 100%; padding: 10px; margin-bottom: 20px;" placeholder="Confirm your password">
+
+            <button type="submit" style="padding: 10px 20px; background-color: #0056b3; color: white; border: none; cursor: pointer;">Register</button>
+        </form>
+        <p style="text-align: center; margin-top: 20px;">Already have an account? <a href="login.html" style="color: #007bff; text-decoration: none;">Login here</a></p>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #007bff; color: white; text-align: center; padding: 15px; margin-top: 50px;">
+        <p>&copy; 2024 Practo App. All rights reserved.</p>
+    </footer>
+<script src="scripts.js"></script>
+</body>
+</html>

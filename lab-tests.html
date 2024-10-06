@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Tests Available</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('https://example.com/background-image.jpg'); /* Replace with your background image URL */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .card {
+            background-color: #4CAF50;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 250px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .card-image {
+            height: 200px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Makes sure the image covers the entire area */
+        }
+        .card-content {
+            padding: 15px;
+            text-align: center;
+            color: white;
+        }
+        .card-title {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+        .card-price {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .book-button {
+            background-color: #45a049;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="back-button" onclick="goBack()">Back to Home</button>
+
+    <h1>Lab Tests Available</h1>
+    <div class="container">
+        <div class="card">
+            <div class="card-image">
+                <img src="C:/Desktop/practo_frontend_mentor-mind/blood.jpg" alt="Blood Test">
+            </div>
+            <div class="card-content">
+                <div class="card-title">Blood Test</div>
+                <div class="card-price">Price: ₹750</div>
+                <button class="book-button">Book Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="C:/Desktop/practo_frontend_mentor-mind/Diabeties.jpg" alt="Diabeties Test">
+            </div>
+            <div class="card-content">
+                <div class="card-title">Diabeties Test</div>
+                <div class="card-price">Price: ₹350</div>
+                <button class="book-button">Book Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="C:/Desktop/practo_frontend_mentor-mind/covid.jpg" alt="Covid Test">
+            </div>
+            <div class="card-content">
+                <div class="card-title">Covid Test</div>
+                <div class="card-price">Price: ₹500</div>
+                <button class="book-button">Book Now</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="C:/Desktop/practo_frontend_mentor-mind/xray.jpg" alt="X-ray Test">
+            </div>
+            <div class="card-content">
+                <div class="card-title">X-ray Test</div>
+                <div class="card-price">Price: ₹700</div>
+                <button class="book-button">Book Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Practo-App. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
